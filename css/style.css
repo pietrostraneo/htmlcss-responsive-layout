@@ -87,6 +87,14 @@ img{
     text-align: center;
 }
 
+.margin-y-20{
+    margin: 20px auto;
+}
+
+.fontwhite{
+    color: white;
+}
+
 /********* MAIN **********/
 
 /* Header */
@@ -164,6 +172,27 @@ header i{
 
 /* Testimonials */
 
+.testcontent{
+    color: white;
+    padding: 10%;
+}
+
+.testcontent img{
+    border-radius: 100%;
+}
+
+.testcontentb h2{
+    color: #9792E4;
+    font-size: 35px;
+}
+
+.testcontentb p:first-child{
+    font-size: 12px;
+}
+
+.testcontentb p:last-child{
+    font-size: 22px;
+}
 
 
 /* Benefits */
