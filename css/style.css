@@ -3,3 +3,113 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Layout Test */
+
+.bgred{
+    background-color: red;
+    border: 1px solid black;
+}
+
+.height250{
+    height: 250px;
+}
+
+.height400{
+    height: 400px;
+}
+
+.height75{
+    height: 75px;
+}
+
+/* Columns */
+
+.col30{
+    width: calc(100% - 20px);
+}
+
+.col33{
+    width: calc(100% - 20px);
+}
+
+.col33b{
+    width: calc(100% - 20px);
+}
+
+.col50{
+    width: calc(100% - 20px);
+}
+
+.col70{
+    width: calc(100% - 20px);
+}
+
+.col100{
+    width: calc(100% - 20px);
+}
+
+/* Common */
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    padding: 30px;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.gap{
+    gap: 20px;
+}
+
+.bgpurple{
+    background-color: #9792E4;
+}
+
+.bgblue{
+    background-color: #0084FD;
+}
+
+.bgcyan{
+    background-color: #B5DDFF;
+}
+
+/********* MAIN **********/
+
+/* Header */
+
+
+
+/* Jumbotron */
+
+
+
+/* Strategy */
+
+
+
+/* Testimonials */
+
+
+
+/* Benefits */
+
+
+
+/* About Us */
+
+
+
+/* Get Started */
+
+
+
+/********* FOOTER *********/
