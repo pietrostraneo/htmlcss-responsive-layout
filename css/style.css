@@ -219,7 +219,7 @@ header i{
     }
     
     #benefits .col33{
-        width: calc(100% / 2 -20px);
+        width: calc(100% / 2 - 20px);
     }
 
     .col33{
@@ -234,6 +234,10 @@ header i{
         width: calc(70% - 20px);
     }
 
+    .democontent{
+        padding: 10%;
+    }
+
     .democontent img{
         float: right;
     }
@@ -241,4 +245,8 @@ header i{
     .testcontent img{
         float: left;
     };
+}
+
+@media screen and (min-width: 1200px){
+
 }
