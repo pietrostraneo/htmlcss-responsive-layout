@@ -25,26 +25,11 @@
 
 /* Columns */
 
-.col30{
-    width: calc(100% - 20px);
-}
-
-.col33{
-    width: calc(100% - 20px);
-}
-
-.col33b{
-    width: calc(100% - 20px);
-}
-
-.col50{
-    width: calc(100% - 20px);
-}
-
-.col70{
-    width: calc(100% - 20px);
-}
-
+.col30,
+.col33,
+.col33b,
+.col50,
+.col70,
 .col100{
     width: calc(100% - 20px);
 }
@@ -70,8 +55,16 @@
     gap: 20px;
 }
 
+.spacebet{
+    justify-content: space-between;
+}
+
 .bgpurple{
     background-color: #9792E4;
+}
+
+.bgwhite{
+    background-color: white;
 }
 
 .bgblue{
@@ -82,19 +75,92 @@
     background-color: #B5DDFF;
 }
 
+.bdrad{
+    border-radius: 5%;
+}
+
+img{
+    width: 100%;
+}
+
+.textcenter{
+    text-align: center;
+}
+
 /********* MAIN **********/
 
 /* Header */
 
+header img{
+    width: 30%;
+}
 
+header i{
+    font-size: 35px;
+}
 
 /* Jumbotron */
 
+.democontent{
+    padding: 5% 10% 0 10%;
+}
 
+.jumbocontent{
+    padding: 10%;
+}
+
+#jumbo h2{
+    color: #0084FD;
+    margin: 20px auto;
+}
+
+#jumbo i{
+    color: #0084FD;
+    font-size: 90px;
+}
+
+#jumbo b{
+    color: darkgray;
+}
+
+#app{
+    margin: 20% auto;
+}
+
+#app a{
+    background-color: #0084FD;
+    color: white;
+    padding: 5% 20%;
+    text-decoration: none;
+}
+
+#app i{
+    font-size: 15px;
+    color: white;
+}
 
 /* Strategy */
 
+.strategycontent h2, p{
+    color: white;
+    margin: 20px auto;
+}
 
+.developcontent h2, p{
+    color: black;
+    margin: 20px auto;
+}
+
+.developcontent{
+    padding: 10%;
+}
+
+.developcontent a{
+    color: black;
+    background-color: #9792E4;
+    border-radius: 50%;
+    padding: 5%;
+}
 
 /* Testimonials */
 

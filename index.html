@@ -2,6 +2,7 @@
 <html lang="it">
 <head>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive</title>
@@ -9,8 +10,13 @@
 <body>
     
     <section>
-        <header class="bgblue height75">
-
+        <header class="bgblue">
+            <div class="container">
+                <div class="row spacebet">
+                    <img src="./img/logo.png" alt="logo">
+                    <i class="fas fa-bars" style="color: white;"></i>
+                </div>
+            </div>
         </header>
     </section>
 
@@ -18,25 +24,87 @@
         
         <!-- Jumbotron -->
 
-        <section>
+        <section id="jumbo">
             <div class="container">
                 <div class="row wrap gap">
-                    <div class="col33b bgred height250"></div>
-                    <div class="col33 bgred height250"></div>
-                    <div class="col33 bgred height250"></div>
-                    <div class="col33 bgred height250"></div>
-                    <div class="col33 bgred height250"></div>
+                    <div class="col33b bgcyan bdrad">
+                        <div class="democontent">
+                            <h2>Get a demo application</h2>
+                            <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nobis,
+                                architecto ad dolore quod, facere totam quas recusandae blanditiis.
+                            </b>
+                            <div id="app"><a href="#"><i class="fab fa-apple"></i> App Store</a></div>
+                            <img src="./img/phone.png" alt="phone">
+                        </div>
+                    </div>
+                    <div class="col33 bgcyan bdrad">
+                        <div class="jumbocontent textcenter">
+                            <i class="fas fa-file-code"></i>
+                            <h2>Clean Code</h2>
+                            <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nobis,
+                                architecto ad dolore quod, facere totam quas recusandae blanditiis.
+                            </b>
+                        </div>
+                    </div>
+                    <div class="col33 bgcyan bdrad">
+                        <div class="jumbocontent textcenter">
+                            <i class="fas fa-compass-drafting"></i>
+                            <h2>Web Design</h2>
+                            <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nobis,
+                                architecto ad dolore quod, facere totam quas recusandae blanditiis.
+                            </b>
+                        </div>
+                    </div>
+                    <div class="col33 bgcyan bdrad">
+                        <div class="jumbocontent textcenter">
+                            <i class="fas fa-laptop-code"></i>
+                            <h2>Development</h2>
+                            <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nobis,
+                                architecto ad dolore quod, facere totam quas recusandae blanditiis.
+                            </b>
+                        </div>
+                    </div>
+                    <div class="col33 bgcyan bdrad">
+                        <div class="jumbocontent textcenter">
+                            <i class="fas fa-bullhorn"></i>
+                            <h2>Branding</h2>
+                            <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nobis,
+                                architecto ad dolore quod, facere totam quas recusandae blanditiis.
+                            </b>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Strategy -->
 
-        <section>
+        <section id="strategy">
             <div class="container bgpurple">
                 <div class="row wrap gap">
-                    <div class="col50 bgred height400"></div>
-                    <div class="col50 bgred height400"></div>
+                    <div class="col50">
+                        <div class="strategycontent">
+                            <img src="./img/planning1.png" alt="plan">
+                            <h2>Strategic Planning</h2>
+                            <p>Egestas dui id ornare arcu odio. In tellus integer feugiat
+                                scelerisque varius morbi enim nunc. Habitasse platea
+                                dictumst quisque sagittis. Interdum velit euismod in
+                                pellentesque massa placerat duis. Quis viverra nibh cras
+                                pulvinar mattis.</p>
+                        </div>
+                    </div>
+                    <div class="col50 bgwhite bdrad">
+                        <div class="developcontent textcenter">
+                            <img src="./img/planning2.png" alt="plan">
+                            <h2>App Development</h2>
+                            <div>
+                                <p>Develop an on-demand app for your delivery
+                                business to reach your targeted customers
+                                without any interruption.</p>
+                            </div>
+                            <a href="#"><i class="fas fa-arrow-down-long"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -46,10 +114,10 @@
         <section>
             <div class="containter">
                 <div class="row wrap gap">
-                    <div class="col100 bgred height250"></div>
-                    <div class="col100 bgred height250"></div>
-                    <div class="col100 bgred height250"></div>
-                    <div class="col100 bgred height250"></div>
+                    <div class="col100 bgred height250 bdrad"></div>
+                    <div class="col100 bgred height250 bdrad"></div>
+                    <div class="col100 bgred height250 bdrad"></div>
+                    <div class="col100 bgred height250 bdrad"></div>
                 </div>
             </div>
         </section>
@@ -59,13 +127,12 @@
         <section>
             <div class="container bgpurple">
                 <div class="row wrap gap">
-                    <h3></h3>
-                    <div class="col33 bgred height250"></div>
-                    <div class="col33 bgred height250"></div>
-                    <div class="col33 bgred height250"></div>
-                    <div class="col33 bgred height250"></div>
-                    <div class="col33 bgred height250"></div>
-                    <div class="col33 bgred height250"></div>
+                    <div class="col33 bgred height250 bdrad"></div>
+                    <div class="col33 bgred height250 bdrad"></div>
+                    <div class="col33 bgred height250 bdrad"></div>
+                    <div class="col33 bgred height250 bdrad"></div>
+                    <div class="col33 bgred height250 bdrad"></div>
+                    <div class="col33 bgred height250 bdrad"></div>
                 </div>
             </div>
         </section>
@@ -75,8 +142,8 @@
         <section>
             <div class="container">
                 <div class="row wrap gap">
-                    <div class="col70 bgred height400"></div>
-                    <div class="col30 bgred height400"></div>
+                    <div class="col70 bgred height400 bdrad"></div>
+                    <div class="col30 bgred height400 bdrad"></div>
                 </div>
             </div>
         </section>
