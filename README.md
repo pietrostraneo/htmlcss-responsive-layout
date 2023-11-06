@@ -10,3 +10,6 @@ Riproduzione di una pagina di un vero sito in modalità responsive. Partiamo dal
 Consigli:
 
 Fate prima i blocchi colorati di tutta la pagina, poi cominciate ad inserire il contenuto.
+
+ESERCIZIO CONSEGNATO ANCHE SE IL RISULTATO E' INDECENTE :( 
+    
