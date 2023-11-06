@@ -208,3 +208,37 @@ header i{
 
 
 /********* FOOTER *********/
+
+
+
+/********* MEDIA QUERY *********/
+
+@media screen and (min-width: 768px){
+    .col30{
+        width: calc(30% - 20px);
+    }
+    
+    #benefits .col33{
+        width: calc(100% / 2 -20px);
+    }
+
+    .col33{
+        width: calc(100% / 3 - 20px);
+    }
+    
+    .col33b{
+        width: calc(100% / 3 * 2 - 20px);
+    }
+    
+    .col70{
+        width: calc(70% - 20px);
+    }
+
+    .democontent img{
+        float: right;
+    }
+
+    .testcontent img{
+        float: left;
+    };
+}
