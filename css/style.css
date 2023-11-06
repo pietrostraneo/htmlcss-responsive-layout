@@ -92,7 +92,7 @@ img{
     margin: 20px auto;
 }
 
-.fontwhite{
+.textwhite{
     color: white;
 }
 
@@ -112,6 +112,10 @@ header i{
 
 .democontent{
     padding: 5% 10% 0 10%;
+}
+
+.phone{
+    width: 100%;
 }
 
 .jumbocontent{
@@ -150,12 +154,17 @@ header i{
 
 /* Strategy */
 
-.strategycontent h2, p{
+.strategycontent h2{
+    font-size: 35px;
+    margin-bottom: 20px auto;
+}
+
+.strategycontent h2, .strategycontent p{
     color: white;
     margin: 20px auto;
 }
 
-.developcontent h2, p{
+.developcontent h2, .developcontent p{
     color: black;
     margin: 20px auto;
 }
@@ -175,16 +184,19 @@ header i{
 
 .testcontent{
     color: white;
-    padding: 10%;
+    padding: 5%;
 }
 
 .testcontent img{
+    width: 50%;
     border-radius: 100%;
+    height: 150px;
 }
 
 .testcontentb h2{
     color: #9792E4;
     font-size: 35px;
+    margin: 20px auto;
 }
 
 .testcontentb p:first-child{
@@ -198,7 +210,40 @@ header i{
 
 /* Benefits */
 
+.benefitcont{
+    padding: 10%;
+}
 
+.benefitcont h2, .benefitcont h3{
+    color: #9792E4;
+    margin: 20px auto;
+}
+
+.benefitcont h2{
+    font-size: 50px;
+}
+
+.benefitcont h3{
+    font-size: 25px;
+}
+
+.benefitcont p{
+    font-size: 20px;
+    margin: 35px auto;
+}
+
+.more{
+    background-color: #9792E4;
+    color: white;
+    font-size: ;
+    padding: 5% 10%;
+    border-radius: 30%;
+    text-decoration: none;
+}
+
+#benefits .textwhite{
+    font-size: 25px;
+}
 
 /* About Us */
 
@@ -244,13 +289,40 @@ header i{
         width: calc(70% - 20px);
     }
 
-    img{
-        width: 200px;
+    header img{
+        width: 10%;
+    }
+
+    header i{
+        font-size: 40px;
+    }
+
+    .democontent{
+        padding: 5% 5% 0 5%;
+    }
+    
+    .democontent img{
+        width: 75%;
+    }
+
+    .strategycontent h2{
+        font-size: 60px;
+    }
+
+    .developcontent a{
+        padding: 2%;
     }
 
     .testcontent img{
         float: left;
-    };
+        width: 20%;
+        margin: 20px auto;
+        height: 140px;
+    }
+
+    .testcontent{
+        padding: 2%;
+    }
 }
 
 @media screen and (min-width: 1200px){
@@ -275,11 +347,4 @@ header i{
         width: calc(30% - 20px);
     }
 
-    header img{
-        width: 10%;
-    }
-
-    header i{
-        font-size: 25px;
-    }
 }
